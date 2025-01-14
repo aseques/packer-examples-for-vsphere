@@ -23,7 +23,7 @@ show_help() {
     printf "\033[0;34m Options:\033[0m\n"
     printf "  \033[0;34m --help, -h, -H\033[0m       Display this help message.\n\n"
     printf "\033[0;34m config_path:\033[0m\n"
-    printf "  \033[0m Place to store the generated configurations (optional).\n\n"
+    printf "  \033[0m Path to save the generated configuration files. (Optional).\n\n"
 
     # Handle user input or exit.
     if [[ -z "$input" ]]; then
