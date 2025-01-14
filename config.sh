@@ -63,9 +63,6 @@ while (("$#")); do
     esac
 done
 
-echo $CONFIG_PATH
-exit 1
-
 mkdir -p "${CONFIG_PATH}"
 ### Copy the example input variables.
 echo
