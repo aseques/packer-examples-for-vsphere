@@ -22,7 +22,7 @@ show_help() {
     printf "\033[0;32m Usage\033[0m: %s [options] [config_path]\n\n" "$script_name"
     printf "\033[0;34m Options:\033[0m\n"
     printf "  \033[0;34m --help, -h, -H\033[0m       Display this help message.\n\n"
-    printf "\033[0;34m Config path:\033[0m\n"
+    printf "\033[0;34m config_path:\033[0m\n"
     printf "  \033[0m Place to store the generated configurations (optional).\n\n"
 
     # Handle user input or exit.
