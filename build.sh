@@ -89,7 +89,7 @@ show_help() {
     printf "  \033[0;34m --auto-continue\033[0m      Automatically continue without user prompts.\n"
     printf "  \033[0;34m --show, -s, -S\033[0m       Display the build command used to build the image.\n"
     printf "\033[0;34m Config path:\033[0m\n"
-    printf "  \033[0m Place to store the generated configurations (optional).\n\n"
+    printf "  \033[0m Path to save the generated configuration files. (Optional).\n\n"
 
 
     # Handle user input or exit.
